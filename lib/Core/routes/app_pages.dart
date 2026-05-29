@@ -25,139 +25,166 @@ import 'package:skywayproject/Features/SpecialPhotosAndTexts/SpecialPhotosAndTex
 import 'package:skywayproject/Features/TicketPurchaseHeaderAuth/TicketPurchaseHeaderAuth_Binding/TicketPurchaseHeaderAuth_Binding.dart';
 import 'package:skywayproject/Features/TicketPurchaseHeaderAuth/TicketPurchaseHeaderAuth_View/TicketPurchaseHeaderAuth_View.dart';
 
-class AppPages{
-  static final pages =[
-    GetPage(name : AppRoutes.auth ,
-        page : () =>  const HomeView() ,
-        binding : AuthBinding()),
+class AppPages {
+  static final pages = [
+    GetPage(
+        name: AppRoutes.auth,
+        page: () => const HomeView(),
+        binding: AuthBinding()),
 
     //book
-    GetPage(name: AppRoutes.ticketPurchase ,
-        page: () => const TicketpurchaseheaderauthView() ,
+    GetPage(
+        name: AppRoutes.ticketPurchase,
+        page: () => const TicketpurchaseheaderauthView(),
         binding: TicketpurchaseheaderauthBinding()),
 
-    GetPage(name: AppRoutes.onlineCheckIn ,
-        page: () => const OnlinecheckinheaderauthView()  ,
+    GetPage(
+        name: AppRoutes.onlineCheckIn,
+        page: () => const OnlinecheckinheaderauthView(),
         binding: OnlinecheckinheaderauthBinding()),
 
-    GetPage(name: AppRoutes.ticketRefund ,
-        page: () => const OnlytextandfaqandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.ticketRefund,
+        page: () => const OnlytextandfaqandrelatedpauthView(),
         binding: OnlytextandfaqandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.ticketChange ,
-        page: () => const OnlytextandfaqandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.ticketChange,
+        page: () => const OnlytextandfaqandrelatedpauthView(),
         binding: OnlytextandfaqandrelatedpauthBinding()),
-
 
     //travel info
-    GetPage(name: AppRoutes.purchaseGuide ,
-        page: () => const OnlytextandfaqandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.purchaseGuide,
+        page: () => const OnlytextandfaqandrelatedpauthView(),
         binding: OnlytextandfaqandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.lunchService,
+    GetPage(
+        name: AppRoutes.lunchService,
         page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.incapacitatedPassanges ,
+    GetPage(
+        name: AppRoutes.incapacitatedPassanges,
         page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.aliveAnimals ,
-        page: () => const OnlytextandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.aliveAnimals,
+        page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.bookingManagementGuide ,
-      page:() => const OnlytextandfaqandrelatedpauthView() ,
-    binding: OnlytextandfaqandrelatedpauthBinding()),
+    GetPage(
+        name: AppRoutes.bookingManagementGuide,
+        page: () => const OnlytextandfaqandrelatedpauthView(),
+        binding: OnlytextandfaqandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.medicalCases ,
-      page: () => const OnlytextandrelatedpauthView(),
-    binding: OnlytextandrelatedpauthBinding()),
+    GetPage(
+        name: AppRoutes.medicalCases,
+        page: () => const OnlytextandrelatedpauthView(),
+        binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.conditionOfTravelToCountries ,
-        page: () => const SearchnesssecceryauthView() ,
+    GetPage(
+        name: AppRoutes.conditionOfTravelToCountries,
+        page: () => const SearchnesssecceryauthView(),
         binding: SearchnesssecceryauthBinding()),
 
-    GetPage(name: AppRoutes.lostLuggage ,
-        page: () => const OnlytextandfaqauthView() ,
+    GetPage(
+        name: AppRoutes.lostLuggage,
+        page: () => const OnlytextandfaqauthView(),
         binding: OnlytextandfaqauthBinding()),
 
-    GetPage(name: AppRoutes.ticketRefundGuide ,
-        page: () => const OnlytextandrelatedpauthView() ,
-        binding: OnlytextandrelatedpauthBinding()),
-
-    GetPage(name: AppRoutes.aloneChild ,
-        page: () => const OnlytextandrelatedpauthView() ,
-        binding: OnlytextandrelatedpauthBinding() ),
-
-    GetPage(name: AppRoutes.passangerLuggage ,
-        page: () => const OnlytextandrelatedpauthView() ,
-        binding: OnlytextandrelatedpauthBinding()),
-
-    GetPage(name: AppRoutes.flightSecuriy ,
+    GetPage(
+        name: AppRoutes.ticketRefundGuide,
         page: () => const OnlytextandrelatedpauthView(),
-        binding: OnlytextandrelatedpauthBinding() ),
+        binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.checkInGuide ,
-        page: () => const OnlytextandfaqandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.aloneChild,
+        page: () => const OnlytextandrelatedpauthView(),
+        binding: OnlytextandrelatedpauthBinding()),
+
+    GetPage(
+        name: AppRoutes.passangerLuggage,
+        page: () => const OnlytextandrelatedpauthView(),
+        binding: OnlytextandrelatedpauthBinding()),
+
+    GetPage(
+        name: AppRoutes.flightSecuriy,
+        page: () => const OnlytextandrelatedpauthView(),
+        binding: OnlytextandrelatedpauthBinding()),
+
+    GetPage(
+        name: AppRoutes.checkInGuide,
+        page: () => const OnlytextandfaqandrelatedpauthView(),
         binding: OnlytextandfaqandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.specialMeals ,
+    GetPage(
+        name: AppRoutes.specialMeals,
         page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.forbiddenGoods ,
-        page: () => const OnlytextandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.forbiddenGoods,
+        page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
-
 
     //duting flight
-    GetPage(name: AppRoutes.skyWayFleet  ,
-        page:() => const SpecialphotosandtextsView() ,
-  binding: SpecialphotosandtextsBinding()),
-
-    GetPage(name: AppRoutes.dinig ,
-        page: () => const OnlytextandrelatedpauthView() ,
-        binding: OnlytextandrelatedpauthBinding()),
-
-    GetPage(name: AppRoutes.seatMap ,
-        page:() => const SpecialphotosandtextsView() ,
+    GetPage(
+        name: AppRoutes.skyWayFleet,
+        page: () => const SpecialphotosandtextsView(),
         binding: SpecialphotosandtextsBinding()),
 
-    GetPage(name: AppRoutes.inFlightEntertainments ,
-        page: () => const OnlytextandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.dinig,
+        page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.flightClasses ,
-        page: () => const OnlytextandrelatedpauthView() ,
+    GetPage(
+        name: AppRoutes.seatMap,
+        page: () => const SpecialphotosandtextsView(),
+        binding: SpecialphotosandtextsBinding()),
+
+    GetPage(
+        name: AppRoutes.inFlightEntertainments,
+        page: () => const OnlytextandrelatedpauthView(),
         binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.magazine ,
-        page: () => const FlightmagazineauthView() ,
-    binding: FlightmagazineauthBinding()),
+    GetPage(
+        name: AppRoutes.flightClasses,
+        page: () => const OnlytextandrelatedpauthView(),
+        binding: OnlytextandrelatedpauthBinding()),
 
-    GetPage(name: AppRoutes.cabinCrew ,
-        page: () => const OnlytextandphotoandfaqauthView() ,
-    binding: OnlytextandphotoandfaqauthBinding()),
+    GetPage(
+        name: AppRoutes.magazine,
+        page: () => const FlightmagazineauthView(),
+        binding: FlightmagazineauthBinding()),
+
+    GetPage(
+        name: AppRoutes.cabinCrew,
+        page: () => const OnlytextandphotoandfaqauthView(),
+        binding: OnlytextandphotoandfaqauthBinding()),
 
     //destinations
-    GetPage(name: AppRoutes.localDestinations ,
-        page:() => const DestinationsView() ,
+    GetPage(
+        name: AppRoutes.localDestinations,
+        page: () => const DestinationsView(),
         binding: DestinationsBinding()),
 
-    GetPage(name: AppRoutes.internationalDestinations ,
-      page:() => const DestinationsView() ,
-        binding: DestinationsBinding()
-    ),
+    GetPage(
+        name: AppRoutes.internationalDestinations,
+        page: () => const DestinationsView(),
+        binding: DestinationsBinding()),
 
-    GetPage(name: AppRoutes.skyWayTourism ,
-        page: () =>  const OnlytextandphotoandfaqauthView() ,
-     binding: OnlytextandphotoandfaqauthBinding() ),
+    GetPage(
+        name: AppRoutes.skyWayTourism,
+        page: () => const OnlytextandphotoandfaqauthView(),
+        binding: OnlytextandphotoandfaqauthBinding()),
 
     //sky way and miles
-    GetPage(name: AppRoutes.passangersClub ,
-        page:() => const PassangersclubauthView() ,
+    GetPage(
+        name: AppRoutes.passangersClub,
+        page: () => const PassangersclubauthView(),
         binding: PassangersclubauthBinding()),
-
   ];
 }

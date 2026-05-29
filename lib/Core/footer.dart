@@ -426,4 +426,7 @@ class FooterState extends State<Footer> {
       ),
     );
   }
+
+  // ignore: unused_element
+  Widget _buildTest() => const SizedBox.shrink();
 }
