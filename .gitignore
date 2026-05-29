@@ -1,0 +1,126 @@
+# -----------------------------------------------------------------------------
+# Dart / Flutter
+# -----------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Flutter generated
+**/generated_plugin_registrant.dart
+**/GeneratedPluginRegistrant.*
+
+# Coverage / test output
+coverage/
+test/.test_coverage.dart
+
+# -----------------------------------------------------------------------------
+# IDE / Editors
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+*.iml
+
+# Keep useful shared VS Code recommendations if you want:
+# !.vscode/extensions.json
+# !.vscode/settings.json
+
+# -----------------------------------------------------------------------------
+# OS files
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------------------------------------------
+# Logs
+# -----------------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------------------------------------------------------
+# Environment / secrets
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# App secrets / keys
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+
+# Android signing
+android/key.properties
+android/app/key.properties
+android/app/upload-keystore.jks
+android/app/release-keystore.jks
+
+# -----------------------------------------------------------------------------
+# Android
+# -----------------------------------------------------------------------------
+android/.gradle/
+android/.idea/
+android/local.properties
+android/**/build/
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Gradle generated
+.gradle/
+
+# -----------------------------------------------------------------------------
+# iOS / macOS
+# -----------------------------------------------------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.*
+
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# Fastlane generated reports
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# -----------------------------------------------------------------------------
+# Web
+# -----------------------------------------------------------------------------
+web/.dart_tool/
+
+# -----------------------------------------------------------------------------
+# Firebase / Google config
+# -----------------------------------------------------------------------------
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+
+# -----------------------------------------------------------------------------
+# Generated localization/build files - only if your project regenerates them
+# -----------------------------------------------------------------------------
+# lib/generated/
+# lib/l10n/generated/
